@@ -3173,11 +3173,11 @@
         <javax.servlet-api.name>servlet-api</javax.servlet-api.name>
       </properties>
     </profile>
-    <!-- added custom CDH-6.3.x profile -->
+    <!-- added custom Hadoop profile linking to the CDH-6.3.x hadoop version -->
     <profile>
-      <id>hadoop-3.0</id>
+      <id>hadoop-3.0.0-cdh6.3.4</id>
       <properties>
-        <hadoop.version>3.0.0-cdh6.3.0</hadoop.version>
+        <hadoop.version>3.0.0-cdh6.3.4</hadoop.version>
       </properties>
     </profile>
     
